@@ -1,0 +1,360 @@
+{
+  "window.titleBarStyle": "native",
+  "window.nativeTabs": false,
+  "window.customTitleBarVisibility": "never",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.DS_Store": true,
+    "**/.factorypath": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/public": true
+  },
+  "gitlens.gitkraken.mcp.autoEnabled": false,
+  "animations.Enabled": true,
+  "debug.showInStatusBar": "always",
+  "debug.terminal.clearBeforeReusing": true,
+  "debug.inlineValues": "auto",
+  "workbench.colorTheme": "Catppuccin Frappé",
+  "workbench.tips.enabled": false,
+  "workbench.editor.tabActionCloseVisibility": false,
+  "workbench.editor.tabActionLocation": "left",
+  "workbench.editor.tabActionUnpinVisibility": true,
+  "workbench.editor.splitSizing": "auto",
+  "workbench.editor.tabSizingFixedMaxWidth": 260,
+  "workbench.editor.wrapTabs": true,
+  "workbench.list.fastScrollSensitivity": 7,
+  "workbench.list.smoothScrolling": true,
+  "workbench.tree.indent": 15,
+  "workbench.tree.renderIndentGuides": "none",
+  "explorer.confirmDelete": false,
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "window.title": "${dirty}${folderName}${separator}${activeEditorShort}${separator}${profileName}",
+  "git.openRepositoryInParentFolders": "never",
+  "git.ignoreMissingGitWarning": true,
+  "git.autofetch": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.fontSize": 12,
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.showSlider": "always",
+  "editor.scrollbar.verticalScrollbarSize": 10,
+  "editor.scrollbar.horizontalScrollbarSize": 0,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.foldingHighlight": false,
+  "editor.guides.indentation": false,
+  "editor.guides.highlightActiveIndentation": false,
+  "editor.renderLineHighlight": "none",
+  "editor.largeFileOptimizations": true,
+  "editor.inlayHints.fontSize": 12,
+  "editor.guides.highlightActiveBracketPair": false,
+  "editor.inlayHints.padding": true,
+  "editor.minimap.enabled": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.accessibilitySupport": "off",
+  "editor.suggest.showStatusBar": true,
+  "editor.stickyScroll.enabled": false,
+  "explorer.compactFolders": false,
+  "editor.fontFamily": "Fira Code",
+  "workbench.fontAliasing": "antialiased",
+  "editor.cursorWidth": 2,
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.cursorBlinking": "smooth",
+  "editor.smoothScrolling": true,
+  "editor.cursorStyle": "line",
+  "editor.foldingImportsByDefault": true,
+  "editor.suggestLineHeight": 30,
+  "editor.fontVariations": true,
+  "editor.renderFinalNewline": "dimmed",
+  "editor.codeLens": true,
+  "terminal.integrated.smoothScrolling": true,
+  "terminal.integrated.cursorBlinking": false,
+  "typescript.referencesCodeLens.enabled": true,
+  "typescript.implementationsCodeLens.enabled": true,
+  "javascript.referencesCodeLens.showOnAllFunctions": true,
+  "javascript.referencesCodeLens.enabled": true,
+  "kotlin.java.home": "/opt/homebrew/opt/openjdk@21",
+  "kotlin.compiler.jvm.target": "1.8",
+  "kotlin.externalSources.autoConvertToKotlin": true,
+  "kotlin.externalSources.useKlsScheme": true,
+  "editor.lineHeight": 20,
+  "explorer.autoReveal": true,
+  "editor.semanticTokenColorCustomizations": {
+    "[Default Dark+]": {
+      "rules": {
+        "property.mandatory:xml": {
+          "bold": true
+        },
+        "string.i18n:xml": {
+          "italic": true
+        }
+      }
+    },
+    "[Default Light+]": {
+      "rules": {
+        "property.mandatory:xml": {
+          "bold": true
+        },
+        "string.i18n:xml": {
+          "italic": true
+        }
+      }
+    },
+    "[Default High Contrast]": {
+      "rules": {
+        "property.mandatory:xml": {
+          "bold": true
+        },
+        "string.i18n:xml": {
+          "italic": true
+        }
+      }
+    }
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "explorer.confirmDragAndDrop": false,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": true,
+    "markdown": true,
+    "scminput": false
+  },
+  "editor.guides.bracketPairs": true,
+  "workbench.startupEditor": "none",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "markdown.preview.scrollEditorWithPreview": true,
+  "markdown.preview.scrollPreviewWithEditor": true,
+  "sonarlint.rules": {
+    "javascript:S2814": {
+      "level": "off"
+    },
+    "javascript:S6479": {
+      "level": "off"
+    },
+    "go:S117": {
+      "level": "off"
+    },
+    "javascript:S6478": {
+      "level": "off"
+    },
+    "javascript:S3358": {
+      "level": "off"
+    },
+    "javascript:S6481": {
+      "level": "off"
+    },
+    "javascript:S6544": {
+      "level": "off"
+    },
+    "go:S100": {
+      "level": "off"
+    },
+    "go:S1186": {
+      "level": "off"
+    },
+    "go:S1192": {
+      "level": "off"
+    },
+    "go:S1135": {
+      "level": "off"
+    },
+    "go:S3776": {
+      "level": "off"
+    },
+    "typescript:S4325": {
+      "level": "off"
+    },
+    "javascript:S6844": {
+      "level": "off"
+    },
+    "docker:S7020": {
+      "level": "off"
+    },
+    "docker:S7031": {
+      "level": "off"
+    },
+    "javascript:S6647": {
+      "level": "off"
+    },
+    "javascript:S125": {
+      "level": "off"
+    }
+  },
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/.git/**": true
+  },
+  "settingsSync.ignoredExtensions": [],
+  "terminal.integrated.fontFamily": "Hack Nerd Font",
+  "terminal.integrated.localEchoStyle": "dim",
+  "go.useLanguageServer": true,
+  "go.formatTool": "goimports",
+  "go.diagnostic.vulncheck": "Imports",
+  "go.toolsManagement.autoUpdate": true,
+  "gopls": {
+    "ui.diagnostic.staticcheck": true,
+    "ui.semanticTokens": true,
+    "verboseOutput": true,
+    "codelenses": {
+      "gc_details": true,
+      "test": true
+    },
+    "analyses": {
+      "ST1000": false,
+      "ST1003": false,
+      "ST1020": false,
+      "ST1021": false,
+      "QF1001": true,
+      "QF1007": true,
+      "QF1011": true,
+      "S1002": true,
+      "S1005": true,
+      "S1025": true,
+      "S1029": true,
+      "SA1014": true,
+      "SA1017": true,
+      "SA1029": true,
+      "SA1030": true,
+      "SA1031": true,
+      "SA1032": true,
+      "SA4023": true,
+      "SA5000": true
+    },
+    "usePlaceholders": true,
+    "completeUnimported": true,
+    "deepCompletion": true,
+    "hoverKind": "FullDocumentation"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "go.inlayHints.functionTypeParameters": true,
+  "go.inlayHints.constantValues": false,
+  "go.disableConcurrentTests": true,
+  "go.coverOnSingleTest": false,
+  "go.coverOnTestPackage": true,
+  "go.lintOnSave": "workspace",
+  "go.lintTool": "golangci-lint-v2",
+  "go.lintFlags": [
+    "-checks",
+    "all",
+    "-tests",
+    "-unused.whole-program",
+    "-ST1000"
+  ],
+  "go.coverageOptions": "showUncoveredCodeOnly",
+  "go.coverageDecorator": {
+    "type": "gutter",
+    "coveredHighlightColor": "rgba(64,128,128,0.5)",
+    "uncoveredHighlightColor": "rgba(128,64,64,0.25)",
+    "coveredGutterStyle": "verticalgreen",
+    "uncoveredGutterStyle": "verticalred"
+  },
+  "go.testExplorer.alwaysRunBenchmarks": true,
+  "go.editorContextMenuCommands": {
+    "addImport": true,
+    "addTags": true,
+    "benchmarkAtCursor": false,
+    "debugTestAtCursor": true,
+    "fillStruct": true,
+    "generateTestForFile": false,
+    "generateTestForFunction": true,
+    "generateTestForPackage": false,
+    "playground": true,
+    "removeTags": false,
+    "testAtCursor": true,
+    "testCoverage": true,
+    "testFile": false,
+    "testPackage": false,
+    "toggleTestFile": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "errorLens.excludeBySource": ["ts(2322)", "ts(2307)", "ts(2339)"],
+  "application.shellEnvironmentResolutionTimeout": 30,
+  "workbench.colorCustomizations": {
+    "menu.background": "#2e333b70",
+    "menu.selectionBackground": "#4247509a",
+    "quickInput.background": "#2e333b00",
+    "notifications.background": "#29303bd7"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.productIconTheme": "material-product-icons",
+  "editor.stickyScroll.scrollWithEditor": false,
+  "editor.stickyScroll.maxLineCount": 1,
+  "workbench.tree.enableStickyScroll": false,
+  "editor.stickyScroll.defaultModel": "indentationModel",
+  "redhat.telemetry.enabled": false,
+  "makefile.configureOnOpen": false,
+  "security.promptForLocalFileProtocolHandling": false,
+  "gitlens.telemetry.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "workbench.navigationControl.enabled": false,
+  "custom-ui-style.stylesheet": {
+    ".tabs-and-actions-container > .editor-actions": "display: none !important",
+    ".titlebar-center": "display: none !important",
+    ".titlebar-right": "display: none !important",
+    ".inline-tabs-placeholder": "display: none !important",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-body": "zoom: 1; transform-origin: 0 0;",
+    ".title-label > h2": "display: none",
+    ".title-label": "display: none !important",
+    ".part.titlebar .action-item:has(.titlebar-agents-icon)": "display: none !important;",
+    ".part.titlebar .action-item:has(.codicon-add-two)": "display: none !important;",
+    ".part.titlebar .action-item:has(.codicon-settings-gear)": "display: none !important;",
+    ".part.titlebar .action-item:has(.codicon-panel-left)": "display: none !important;",
+
+    ".activitybar, .statusbar, .tabs-container, .sidebar .composite.title": {
+      "-webkit-app-region": "drag",
+
+      ".content .monaco-action-bar, .statusbar-item, .tab, .title .title-actions .action-label": {
+        "-webkit-app-region": "no-drag"
+      }
+    }
+  },
+  "custom-ui-style.electron": {
+    "frame": true,
+    "roundedCorners": true,
+    "titleBarStyle": "hiddenInset",
+    "visualEffectState": "active",
+    "transparent": true,
+    "backgroundColor": "#0000004f",
+    "vibrancy": "ultra-dark"
+  },
+  "custom-ui-style.webview.enable": false,
+  "custom-ui-style.external.imports": [
+    "file:///Users/bruno.krugel/.config/vscode/custom.css",
+    "file:///Users/bruno.krugel/.config/vscode/vscode-script.js"
+  ],
+  "[dockercompose]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.autoIndent": "advanced",
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "[github-actions-workflow]": {
+    "editor.defaultFormatter": "redhat.vscode-yaml"
+  },
+  "cursor.cpp.disabledLanguages": ["scminput"],
+  "workbench.activityBar.location": "hidden",
+  "workbench.activityBar.orientation": "vertical",
+  "cursor.windowSwitcher.sidebarHoverCollapsed": true,
+  "cursor.localParallelAgentsDisableRecommender": true,
+  "editor.quickSuggestionsDelay": 100,
+  "workbench.layoutControl.enabled": false,
+  "datadog.codeSecurity.notification.suppressOnboarding": true,
+  "datadog.cursor.notification.suppressMcpMigrationMessage": true,
+  "window.autoDetectColorScheme": false,
+  "workbench.agentsWindowButton.enabled": false,
+  "workbench.editor.editorActionsLocation": "hidden",
+  "debug.toolBarLocation": "docked"
+}

@@ -1,0 +1,628 @@
+/* secondary button */
+.notifications-list-container .monaco-list-row .monaco-text-button.secondary {
+    /* color: inherit !important; */
+    background-color: inherit !important;
+  }
+
+  .notifications-list-container .monaco-list-row .monaco-text-button.secondary:hover {
+    background-color: #141b25 !important;
+  }
+
+  /* notifications toolbar */
+
+  .notification-list-item .notification-list-item-toolbar-container .action-item .codicon {
+    color: inherit !important;
+    opacity: .4 !important;
+    background: none !important;
+  }
+
+  .notification-list-item .notification-list-item-toolbar-container .action-item .codicon:hover {
+    opacity: 1 !important;
+  }
+
+
+  /* notifications */
+
+  :where(.notifications-list-container) .monaco-list-row>div:has( :is(.codicon-error)),
+  :where(.notifications-list-container) .monaco-list-row:has( :is(.codicon-error)) .monaco-text-button.secondary {
+    color: #EB9CA6 !important;
+    border: 1.5px solid #684048 !important;
+    /* background-image: linear-gradient(to right, #f24d4c55, #22242f 30%) !important; */
+  }
+
+  :where(.notifications-list-container) .monaco-list-row>div:has( :is(.codicon-warning)),
+  :where(.notifications-list-container) .monaco-list-row:has( :is(.codicon-warning)) .monaco-text-button.secondary {
+    color: #BCA031 !important;
+    border: 1.5px solid #574F27 !important;
+    /* background-image: linear-gradient(to right, #e9bd0c55, #22242f 30%) !important; */
+  }
+
+  :where(.notifications-list-container) .monaco-list-row>div:has( :is(.codicon-info)),
+  :where(.notifications-list-container) .monaco-list-row:has( :is(.codicon-info)) .monaco-text-button.secondary {
+    color: #6CA9FF !important;
+    border: 1.5px solid #2D4C7A !important;
+    /* background-image: linear-gradient(to right, #3498db55, #22242f 30%) !important; */
+  }
+
+  .lightBulbWidget {
+    transition: top 200ms;
+  }
+
+  @keyframes hoverFadeIn {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  .action-label {
+    transition: color 200ms;
+  }
+
+
+  /* notifications buttons */
+
+
+  .notifications-list-container .monaco-list-row:has(.codicon-info) .monaco-text-button:not(.secondary) {
+    text-shadow: none !important;
+    border: 1px solid #181a1f !important;
+    background-color: #0f82e6 !important;
+    /* background-image: linear-gradient(#0f87f0, #0f82e6) !important; */
+    color: white !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-info) .monaco-text-button:not(.secondary):hover {
+    color: #ffffff !important;
+    /* background-image: linear-gradient(#1e8ef1, #1489f0) !important; */
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-info) .monaco-text-button:not(.secondary):active {
+    background: #0d77d3 !important;
+    box-shadow: none !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-info) .monaco-text-button:not(.secondary):focus {
+    outline: none !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-info) .monaco-text-button:not(.secondary):hover,
+  .notifications-list-container .monaco-list-row:has(.codicon-info) .monaco-text-button:not(.secondary):focus {
+    color: white !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-info) .monaco-text-button:not(.secondary):focus {
+    border-color: transparent !important;
+    background-clip: padding-box !important;
+    box-shadow: inset 0 0 0 1px rgba(24, 26, 31, 0.5), 0 0 0 1px #0f82e6 !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-warning) .monaco-text-button:not(.secondary) {
+    text-shadow: none !important;
+    border: 1px solid #181a1f !important;
+    background-color: #ad7c0b !important;
+    /* background-image: linear-gradient(#b6830c, #ad7c0b) !important; */
+    color: white !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-warning) .monaco-text-button:not(.secondary):hover {
+    color: #ffffff !important;
+    background-image: linear-gradient(#c58d0d, #bb860c) !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-warning) .monaco-text-button:not(.secondary):active {
+    background: #996e0a !important;
+    box-shadow: none !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-warning) .monaco-text-button:not(.secondary):focus {
+    outline: none !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-warning) .monaco-text-button:not(.secondary):hover,
+  .notifications-list-container .monaco-list-row:has(.codicon-warning) .monaco-text-button:not(.secondary):focus {
+    color: white !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-warning) .monaco-text-button:not(.secondary):focus {
+    border-color: transparent !important;
+    background-clip: padding-box !important;
+    box-shadow: inset 0 0 0 1px rgba(24, 26, 31, 0.5), 0 0 0 1px #ad7c0b !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-error) .monaco-text-button:not(.secondary) {
+    text-shadow: none !important;
+    border: 1px solid #181a1f !important;
+    background-color: #d13b2e !important;
+    /* background-image: linear-gradient(#d34336, #d13b2e) !important; */
+    color: white !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-error) .monaco-text-button:not(.secondary):hover {
+    color: #ffffff !important;
+    background-image: linear-gradient(#d64f43, #d4473a) !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-error) .monaco-text-button:not(.secondary):active {
+    background: #c0372a !important;
+    box-shadow: none !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-error) .monaco-text-button:not(.secondary):focus {
+    outline: none !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-error) .monaco-text-button:not(.secondary):hover,
+  .notifications-list-container .monaco-list-row:has(.codicon-error) .monaco-text-button:not(.secondary):focus {
+    color: white !important;
+  }
+
+  .notifications-list-container .monaco-list-row:has(.codicon-error) .monaco-text-button:not(.secondary):focus {
+    border-color: transparent !important;
+    background-clip: padding-box !important;
+    box-shadow: inset 0 0 0 1px rgba(24, 26, 31, 0.5), 0 0 0 1px #d13b2e !important;
+  }
+
+
+  * {
+    outline-width: 1.5px !important;
+    border-width: 1.5px !important;
+  }
+
+  .monaco-findInput>div,
+  .monaco-action-bar .action-item.select-container {
+    overflow: visible !important;
+  }
+
+  .monaco-workbench .pane-composite-part>.title>.composite-bar-container>.composite-bar>.monaco-action-bar .action-item.checked .active-item-indicator:before {
+    border-top-width: 1.5px !important;
+  }
+
+  /* keybinding label */
+
+  .quick-input-list .monaco-keybinding>.monaco-keybinding-key:has(~ .monaco-keybinding-key-separator) {
+    margin-right: 0 !important;
+  }
+
+  .quick-input-list .monaco-keybinding>.monaco-keybinding-key:has(+ .monaco-keybinding-key-chord-separator) {
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+  }
+
+  .quick-input-list .monaco-keybinding>.monaco-keybinding-key-chord-separator+.monaco-keybinding-key {
+    border-top-left-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+  }
+
+  .quick-input-list .monaco-keybinding>.monaco-keybinding-key:first-child {
+    border-top-left-radius: 3px !important;
+    border-bottom-left-radius: 3px !important;
+  }
+
+  .quick-input-list .monaco-keybinding>.monaco-keybinding-key:last-child {
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+  }
+
+  .quick-input-list .monaco-keybinding>.monaco-keybinding-key {
+    margin-left: 0;
+  }
+
+  /* .quick-input-list .monaco-keybinding>.monaco-keybinding-key-separator:has(~ .monaco-keybinding-key) {
+           margin-left: 0 !important;
+      }
+  */
+  .monaco-keybinding {
+    line-height: 2 !important;
+  }
+
+  .quick-input-list .monaco-keybinding>.monaco-keybinding-key,
+  .quick-input-list .monaco-keybinding>.monaco-keybinding-key-separator {
+    /*color: #fff !important;*/
+    background-color: var(--vscode-keybindingLabel-background) !important;
+  }
+
+  .quick-input-list .monaco-keybinding>.monaco-keybinding-key-separator {
+    line-height: 22px !important;
+  }
+
+  .quick-input-list .monaco-keybinding>.monaco-keybinding-key {
+    /* border-radius: 3px;
+           */
+    border-radius: 0;
+    border: transparent !important;
+    box-shadow: none !important;
+    padding: 0 0.375em !important;
+  }
+
+
+  /* widget */
+  .quick-input-widget {
+    background-color: #171f2b !important;
+    top: 50px !important;
+    padding-bottom: 0.75em !important;
+    box-shadow: 0 6px 12px -2px rgba(0, 0, 0, 0.4), 0 0 0 100vw rgba(8, 9, 10, 0.75) !important;
+  }
+
+  .quick-input-widget.hidden-input .quick-input-header {
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .quick-input-header {
+    padding: 0.75em !important;
+  }
+
+  .quick-input-list .monaco-scrollable-element {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .quick-input-widget.hidden-input .quick-input-list {
+    margin-top: 0.75em !important;
+  }
+
+  /* .quick-input-list:has(.monaco-list-row) {
+      border: 1.5px solid #333e4f !important;
+  } */
+
+  .quick-input-list {
+    margin: 0 0.75em 0 !important;
+    padding: 0 !important;
+  }
+
+  .quick-input-widget {
+    transform-origin: top;
+    animation: openPopup 400ms;
+  }
+
+  .quick-input-list .monaco-list {
+    max-height: 312px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* .quick-input-list .monaco-list .monaco-list-row {
+      border-bottom: 1.5px solid #333e4f !important;
+      border-radius: 0 !important;
+  } */
+
+  .quick-input-list .monaco-list-row:last-of-type {
+    border-bottom: none !important;
+  }
+
+  @keyframes scrollingAnimation {
+    from {
+      opacity: 0;
+    }
+
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes openPopup {
+    from {
+      opacity: 0;
+      transform: scaleY(0);
+    }
+
+    to {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+  }
+
+  @keyframes closePopup {
+    from {
+      opacity: 1;
+      transform: scaleY(1);
+    }
+
+    to {
+      opacity: 0;
+      transform: scaleY(0);
+    }
+  }
+
+
+  /* suggest widget */
+  .monaco-editor .suggest-widget .monaco-list-row {
+    left: -2px !important;
+    width: calc(100% + 2px) !important;
+  }
+
+  /* .monaco-editor .suggest-widget .codicon[class*=-variable] {
+           */
+  /* .monaco-editor .suggest-widget .codicon-symbol-snippet[class*=codicon-] {
+               */
+  .monaco-editor .suggest-widget .codicon[class*=codicon-] {
+    color: rgba(157, 165, 180, 0.6);
+    background: rgba(157, 165, 180, 0.1);
+    /* .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-function] {
+                       */
+    font-size: 14px;
+    display: inline-block !important;
+    height: inherit !important;
+    min-width: 2em;
+    padding-left: 0;
+    margin-right: 0.75em !important;
+    line-height: 2em;
+    text-align: center;
+    /* font-style: normal;
+                       */
+    /* font-weight: bold;
+                       */
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-attribute] {
+    color: #d19a66 !important;
+    background: rgba(209, 154, 102, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-builtin] {
+    color: #c678dd !important;
+    background: rgba(198, 120, 221, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-class] {
+    color: #e5c07b !important;
+    background: rgba(229, 192, 123, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-constant] {
+    color: #d19a66 !important;
+    background: rgba(209, 154, 102, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-function] {
+    color: #61afef !important;
+    background: rgba(97, 175, 239, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-import] {
+    color: #c678dd !important;
+    background: rgba(198, 120, 221, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-keyword] {
+    color: #c678dd !important;
+    background: rgba(198, 120, 221, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-method] {
+    color: #61afef !important;
+    background: rgba(97, 175, 239, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-module] {
+    color: #c678dd !important;
+    background: rgba(198, 120, 221, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-mixin] {
+    color: #e5c07b !important;
+    background: rgba(229, 192, 123, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-package] {
+    color: #c678dd !important;
+    background: rgba(198, 120, 221, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-property] {
+    color: #abb2bf !important;
+    background: rgba(171, 178, 191, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-require] {
+    color: #c678dd !important;
+    background: rgba(198, 120, 221, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-snippet] {
+    color: #98c379 !important;
+    background: rgba(152, 195, 121, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-tag] {
+    color: #e06c75 !important;
+    background: rgba(224, 108, 117, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-type] {
+    color: #e5c07b !important;
+    background: rgba(229, 192, 123, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-value] {
+    color: #abb2bf !important;
+    background: rgba(171, 178, 191, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-variable] {
+    color: #e06c75 !important;
+    background: rgba(224, 108, 117, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-selector] {
+    color: #d19a66 !important;
+    background: rgba(209, 154, 102, 0.2);
+  }
+
+  .monaco-editor .suggest-widget .codicon[class*=codicon-symbol-pseudo-selector] {
+    color: #d19a66 !important;
+    background: rgba(209, 154, 102, 0.2);
+  }
+
+
+  /* Rounded corners */
+  /* Rounded tabs */
+  .tab.active {
+    box-shadow: none !important;
+    border-top: none !important;
+  }
+
+  .monaco-workbench .part.editor .tabs-container .tab .tab-actions::before {
+    background-color: transparent !important;
+    border-top: none !important;
+    box-shadow: none !important;
+    content: none !important;
+    background: none !important;
+  }
+
+  .monaco-workbench .part.editor .tabs-container .tab .tab-actions {
+    background: none !important;
+    box-shadow: none !important;
+  }
+
+  .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab {
+    border-radius: 0.5rem 0.5rem 0 0 !important;
+    overflow: hidden !important;
+  }
+
+  .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active {
+    border-radius: 0.5rem 0.5rem 0 0 !important; overflow: hidden !important;
+  }
+
+  .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab {
+    border-radius: 0.5rem  0.5rem 0 0 !important;
+  }
+
+  /* Remove active tab indicator */
+  .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.selected.tab-border-top>.tab-border-top-container{
+    height: 0 !important;
+  }
+
+
+  .monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active {
+    box-shadow: 0 6px 0 0 var(--vscode-editor-background) !important;
+  }
+
+  .tabs-and-actions-container:has(.tab.active:first-child) {
+    box-shadow: -20px 5px 0 0 var(--vscode-editor-background) !important;
+  }
+
+
+  /* Remove active tab indicator */
+  .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top>.tab-border-top-container, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.selected.tab-border-top>.tab-border-top-container{
+    height: 0 !important;
+  }
+
+
+  .monaco-workbench .part.editor>.content .editor-group-container.active>.title .tabs-container>.tab.active {
+    box-shadow: 0 6px 0 0 var(--vscode-editor-background) !important;
+  }
+
+  .tabs-and-actions-container:has(.tab.active:first-child) {
+    box-shadow: -20px 5px 0 0 var(--vscode-editor-background) !important;
+  }
+
+
+  .sidebar .title-label {
+    padding: 0 !important
+  }
+
+  .sidebar {
+    border: none !important
+  }
+
+  /* Breadcrumb rounded */
+  .breadcrumbs-below-tabs {
+    position: relative;
+    border-radius: 0.5rem 0.5rem 0 0 !important;
+    overflow: hidden !important;
+    padding: 9px 0 !important;
+    background: var(--vscode-editor-background) !important;
+    color: var(--vscode-editor-foreground) !important;
+  }
+
+  /* Add a matching background behind the breadcrumbs container */
+  .breadcrumbs-below-tabs::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: var(--vscode-editor-background);
+    border-radius: 0.5rem 0.5rem 0 0;
+    z-index: -1; /* behind the content */
+  }
+
+  /* .monaco-breadcrumbs {font-size: 0.7rem !important;} */
+
+  /* .monaco-editor .sticky-widget {box-shadow: none !important; border-color: var(--vscode-editor-background) !important;} */
+
+  .monaco-editor .editor-scrollable{
+    border-radius:  0rem !important;
+  }
+
+  /* Remove shadow from file explorer */
+  .monaco-editor-background{border-radius: 0rem !important;}
+  .monaco-editor .monaco-scrollable-element{border-radius:  0rem !important;}
+  .monaco-scrollable-element > .scrollbar.vertical{border-radius:  0rem  !important;}
+  .monaco-scrollable-element > .scrollbar.horizontal{border-radius: 0rem !important;}
+  .monaco-scrollable-element > .shadow.top{
+    display: none
+  }
+
+  .monaco-workbench .monaco-list:not(.element-focused):focus:before{outline: none !important}
+
+  /* .monaco-workbench .part.sidebar .title-actions{display: none} */
+  /* .monaco-workbench .part.sidebar .title .title-actions{display: none} */
+  .editor-group-container .editor-container:has(.extension-editor){
+    border-radius: 0.5rem;
+  }
+  .monaco-editor{border-radius: 0.5rem; overflow: hidden;}
+  .monaco-editor .overflow-guard{border-radius: 0rem;}
+  .monaco-editor .overflow-guard .monaco-scrollable-element{border-radius: 0rem;}
+  .monaco-editor .margin{border-radius: 0rem;}
+  .monaco-editor .margin-view-overlays{border-radius: 0rem;}
+  .monaco-editor .monaco-editor-background{border-radius: 0rem;}
+  .monaco-action-bar.quick-input-inline-action-bar{display: none}
+  /* .monaco-workbench .part.editor > .content{border-radius: 0.5rem !important; overflow: hidden !important;} */
+  /* .monaco-workbench .part.editor {
+    background-color: var(--vscode-editor-background) !important;
+  } */
+  .monaco-workbench .part.sidebar .secondary-sidebar{border-radius: .5rem  !important;}
+  /* .monaco-workbench .part.sidebar{border-radius: 0.5rem !important; overflow: hidden !important;} */
+  .monaco-workbench .monaco-list:not(.element-focused):focus:before{outline: none !important}
+  .monaco-list-row.focused{outline: none !important}
+  .monaco-editor .scroll-decoration{display: none !important}
+  .monaco-editor-background{border-radius: 0rem !important;}
+  .monaco-editor .monaco-scrollable-element{border-radius:  0rem !important;}
+  .monaco-scrollable-element > .scrollbar.vertical{border-radius:  0rem  !important;}
+  .monaco-scrollable-element > .scrollbar.horizontal{border-radius: 0rem !important;}
+
+  li.action-item.icon.checked, li.action-item.icon:hover{opacity: 1 !important;}
+  li.action-item.icon{transition: all 0.15s !important; opacity: 0.7 !important;}
+
+  /* div#terminal{border-radius: .75rem !important; overflow: hidden !important;} */
+  .terminal-wrapper.active{background: transparent !important;}
+
+  .editor-actions{
+    opacity: 0 !important; transition: opacity 0.2s ease-in-out;
+  }
+  .editor-actions:hover{
+    opacity: 1 !important;
+  }
+
+  .notification-toast{box-shadow: none !important}
+
+  .monaco-workbench .part.editor > .content .editor-group-container > .title.title-border-bottom:after{display: none}
+
+  .monaco-workbench .part.editor > .content {
+    background-color: var(--vscode-editor-background) !important;
+    /* border-radius: 10px; or whatever you set */
+    overflow: hidden;
+  }
+
+  .monaco-workbench .part.sidebar .monaco-list {
+    width: 90% !important;
+    margin: auto !important;
+  }
+
+  .monaco-workbench .part.sidebar .monaco-list .monaco-icon-label {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
