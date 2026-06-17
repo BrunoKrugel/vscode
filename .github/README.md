@@ -1,6 +1,6 @@
 # VSCode Config
 
-![VSCode](vscode.png)
+![VSCode](./img/vscode.png)
 
 ## Extensions
 
