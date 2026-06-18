@@ -5,7 +5,7 @@
 ## Extensions
 
 - [Better Comments](https://open-vsx.org/extension/aaron-bond/better-comments)
-- [Catppuccin Theme](https://open-vsx.org/extension/Catppuccin/catppuccin-vsc)
+- [Catppuccin Theme](https://open-vsx.org/extension/Catppuccin/catppuccin-vsc) (Frappe Theme)
 - [Custom UI Style](https://open-vsx.org/extension/subframe7536/custom-ui-style)
 - [Error Lens](https://open-vsx.org/extension/usernamehw/errorlens)
 - [Material Icon Theme](https://open-vsx.org/extension/PKief/material-icon-theme)
